@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "node servidor.js",
-    "postinstall": "npx playwright install"
+    "postinstall": "npx playwright install --with-deps chromium"
   },
   "keywords": [],
   "author": "",
