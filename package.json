@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "node servidor.js",
-    "postinstall": "npx playwright install"
+    "postinstall": "node install-playwright.js"
   },
   "keywords": [],
   "author": "",
