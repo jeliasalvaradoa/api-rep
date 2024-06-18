@@ -1,5 +1,5 @@
 FROM mcr.microsoft.com/playwright:v1.30.0-focal
-WORKDIR /app
+WORKDIR /rep-playright
 COPY package*.json ./
 RUN npm install
 COPY . .
