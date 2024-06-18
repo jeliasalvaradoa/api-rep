@@ -1,8 +1,8 @@
-import { firefox } from "playwright";
+import { chromium } from "playwright";
 
 
 const consultar = async (ced,config) => {
-const brower = await firefox.launch(
+const brower = await chromium.launch(
 { headless: true}
 
 )
