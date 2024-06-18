@@ -4,8 +4,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node servidor.js",
-    "postinstall": "node install-playwright.js"
+   "postinstall": "PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1 npx playwright install",
+   "start": "node your_start_script.js"
   },
   "keywords": [],
   "author": "",
